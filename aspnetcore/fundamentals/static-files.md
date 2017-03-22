@@ -189,7 +189,7 @@ The following code enables serving unknown types and will render the unknown fil
 With the code above, a request for a file with an unknown content type will be returned as an image.
 
 >[!WARNING]
-> Enabling `ServeUnknownFileTypes` is a security risk and using it is discouraged.  `FileExtensionContentTypeProvider`  (explained below) provides a safer alternative to serving files with non-standard extensions.
+> Enabling `ServeUnknownFileTypes` is a security risk and using it is discouraged.  `FileExtensionContentTypeProvider`  (explained above) provides a safer alternative to serving files with non-standard extensions.
 
 ### Considerations
 
